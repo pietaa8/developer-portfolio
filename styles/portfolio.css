@@ -66,8 +66,10 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
-.about{
+section{
     margin-top: 230px;
+}
+.about{
     background: burlywood;
     border-radius: 10px;
     padding: 130px 150px;
@@ -77,14 +79,14 @@ main{
     text-align: center;
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 
 }
 .section-description{
     text-align: center;
     color: brown;
     font-size: 18px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 
 }
 .about-info-container{
@@ -99,4 +101,56 @@ main{
     font-weight: 700;
     font-size: 20px;
     color: bisque;
+}
+/* what i do styles */
+.what-i-do{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.skills-container{
+    margin-top: 130px;
+    display: flex;
+    gap: 54px;
+}
+.skill{
+    background: white;
+    box-shadow: 0px 6px 50px navajowhite;
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-title{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: gray;
+}
+
+/* resume styles */
+.resume-content{
+    margin-top: 130px;
+    display: flex;
+    gap: 37px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title{
+    font-weight: 500;
+    font-size: 25px;
+    color: darkolivegreen;
+
+}
+.resume .sub-title{
+    color: mediumslateblue;
+    font-weight: 400;
+    font-size: 20px;
+}
+.resume .description{
+    color: grey;
 }
