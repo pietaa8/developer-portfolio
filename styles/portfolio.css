@@ -28,11 +28,12 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 .nav-title{
     font-weight: 800;
     font-size: 45px;
+    color: orangered;
 }
 nav ul{
     display: flex;
